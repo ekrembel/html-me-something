@@ -4,7 +4,7 @@ body {
 .title {
     text-align: center;
     font-size: 40px;
-    padding: 50px
+    padding: 50px;
 }
 hr {
     text-align: center;
@@ -40,4 +40,31 @@ figcaption {
 input {
     width: 20%;
     padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+
+    img, iframe {
+        width: 100%;
+        padding-left: 0;
+    }
+    h2, p, figcaption, footer {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: justify;
+    }
+    #form {
+        text-align: left;
+        padding: 0;
+    }
+    hr {
+        width: 100%;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .title {
+        text-align: center;
+        font-size: 40px;
+        padding: 30px;
+    }
 }
