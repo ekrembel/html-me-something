@@ -1,0 +1,43 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px
+}
+hr {
+    text-align: center;
+    width: 58%;
+}
+h2, p, figcaption, footer {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+}
+img, iframe {
+    padding-left: 300px;
+}
+
+h2 {
+    padding-top: 60px;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+a {
+    color: crimson;
+    font-weight: bold;
+}
+figcaption {
+    font-style: italic;
+}
+#form {
+    text-align: center;
+    padding: 50px;
+}
+input {
+    width: 20%;
+    padding-left: 10px;
+}
